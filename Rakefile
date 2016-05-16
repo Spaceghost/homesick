@@ -18,7 +18,7 @@ Jeweler::Tasks.new do |gem|
     Your home directory is your castle. Don't leave your dotfiles behind.
     
 
-    Homesick is sorta like rip, but for dotfiles. It uses git to clone a repository containing dotfiles, and saves them in ~/.homesick. It then allows you to symlink all the dotfiles into place with a single command. 
+    Homesick is sorta like rip, but for dotfiles. It uses git to clone a repository containing dotfiles, and saves them in ~/.homesick by default. It then allows you to symlink all the dotfiles into place with a single command.
 
   }
   gem.email = ["josh@technicalpickles.com", "info@muratayusuke.com"]

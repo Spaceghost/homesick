@@ -23,7 +23,7 @@ module Homesick
     protected
 
     def home_dir
-      @home_dir ||= Pathname.new(ENV['HOME'] || '~').realpath
+      @home_dir ||= Pathname.new((ENV.fetch('HOMESICK_DIR', (ENV['HOME'] || '~')).realpath
     end
 
     def repos_dir

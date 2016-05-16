@@ -1,3 +1,7 @@
+# x.y.z-unreleased
+ * Support custom homesick directory instead of ~/.homesick via $HOMESICK_DIR
+   environment variable.
+
 #1.1.3
  * Allow a destinaton to be passed when cloning a castle
  * Make sure `homesick edit` opens default editor in the root of the given castle
